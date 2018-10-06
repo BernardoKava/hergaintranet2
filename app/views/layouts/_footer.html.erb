@@ -5,10 +5,13 @@
   </small>
   <nav>
     <ul>
-      <li><%= link_to "HHMS",   hhms_path %></li>
+
       <li><%= link_to "Rules", rules_path %></li>
       <li><%= link_to "Contact", contact_path %></li>
       <li><a href="http://news.railstutorial.org/">Learn enough</a></li>
+      <% if current_user %>
+        <li><%= link_to "HHMS",   hhms_path %></li>
+      <% end %>
     </ul>
   </nav>
 </footer>

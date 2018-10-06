@@ -6,8 +6,15 @@
         <li><%= link_to "Home",   root_path %></li>
         <li><%= link_to "Rules", rules_path %></li>
         <li><%= link_to "Providers",  providers_path %></li>
-        <li><%= link_to "HHMS",   hhms_path %></li>
-        <li><%= link_to "Log in", '#' %></li>
+
+        <% if current_user %>
+          <li><%= link_to "HHMS",   hhms_path %></li>
+          <li><%= link_to "Photo Browser", '#' %></li>
+          <li><%= link_to "Log out", destroy_user_session_path, method: :delete  %></li>
+
+        <% else %>
+          <li><%= link_to "Log in", new_user_session_path  %></li>
+        <% end %>
       </ul>
     </nav>
   </div>
