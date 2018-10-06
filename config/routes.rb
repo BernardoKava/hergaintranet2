@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'dashboard/index'
   root 'static_pages#home'
   get 'rules',      to: 'static_pages#rules'
