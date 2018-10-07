@@ -14,7 +14,6 @@
             <ul class="dropdown-menu">
               <li><%= link_to "HHMS",  hhms_path %></li>
               <li><%= link_to "Service Providers",  service_providers_path %></li>
-              <li><%= link_to "Photo Browser", '#' %></li>
             </ul>
         <% end %>
 
@@ -25,7 +24,6 @@
             </a>
             <ul class="dropdown-menu">
               <li><%= link_to "Profile", edit_user_registration_path %></li>
-              <li><%= link_to "Settings", '#' %></li>
               <li class="divider"></li>
               <li>
                 <%= link_to "Log out", destroy_user_session_path, method: :delete %>

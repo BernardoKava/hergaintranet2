@@ -43,7 +43,7 @@
 
   <div class="field">
     <%= form.label :user_id %>
-    <%= form.number_field :user_id ,value: current_user.id, :disabled => true%>
+    <%= form.hidden_field :user_id ,value: current_user.id, :disabled => false%>
   </div>
 
   <div class="actions">

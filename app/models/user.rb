@@ -7,4 +7,5 @@ class User < ApplicationRecord
   gravtastic
 
   has_many :service_providers
+  has_many :photos
 end
