@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'user/index'
   devise_for :users
   get 'dashboard/index'
   root 'static_pages#home'
