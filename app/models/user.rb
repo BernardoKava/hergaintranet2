@@ -5,4 +5,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   include Gravtastic
   gravtastic
+
+  has_many :service_providers
 end
