@@ -1,3 +1,8 @@
+<% provide(:title, "Resources") %>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+
 <%= form_with(model: resource, local: true) do |form| %>
   <% if resource.errors.any? %>
     <div id="error_explanation">
@@ -11,27 +16,29 @@
     </div>
   <% end %>
 
-  <div class="field">
+
     <%= form.label :name %>
-    <%= form.text_field :name %>
-  </div>
+    <%= form.text_field :name , class: 'form-control'%>
 
-  <div class="field">
+
+
     <%= form.label :description %>
-    <%= form.text_area :description %>
-  </div>
+    <%= form.text_area :description , class: 'form-control'%>
 
-  <div class="field">
-    <%= form.label :user_id %>
+
+
     <%= form.hidden_field :user_id ,value: current_user.id %>
-  </div>
 
-  <div class="field">
+
+
     <%= form.label :link %>
-    <%= form.text_field :link %>
-  </div>
+    <%= form.text_area :link, class: 'form-control' %>
 
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+
+      <br/>
+
+    <p><%= form.submit %></p>
+
 <% end %>
+  </div>
+</div>

@@ -1,3 +1,8 @@
+<% provide(:title, "Service Providers") %>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+
 <%= form_with(model: service_provider, local: true) do |form| %>
   <% if service_provider.errors.any? %>
     <div id="error_explanation">
@@ -11,47 +16,46 @@
     </div>
   <% end %>
 
-  <div class="field">
+
     <%= form.label :name %>
-    <%= form.text_field :name %>
-  </div>
+    <%= form.text_field :name, class: 'form-control' %>
 
-  <div class="field">
+
     <%= form.label :address %>
-    <%= form.text_field :address %>
-  </div>
+    <%= form.text_area :address, class: 'form-control' %>
 
-  <div class="field">
+
     <%= form.label :telephone %>
-    <%= form.text_field :telephone %>
-  </div>
+    <%= form.text_field :telephone, class: 'form-control' %>
 
-  <div class="field">
+
+
     <%= form.label :email %>
-    <%= form.text_field :email %>
-  </div>
+    <%= form.text_field :email, class: 'form-control' %>
 
-  <div class="field">
+
     <%= form.label :acc_number %>
-    <%= form.text_field :acc_number %>
-  </div>
+    <%= form.text_field :acc_number , class: 'form-control'%>
 
-  <div class="field">
+
     <%= form.label :active %>
     <%= form.check_box :active %>
-  </div>
 
-  <div class="field">
+
+
     <%= form.label :link %>
-    <%= form.text_field :link %>
-  </div>
+    <%= form.text_area :link, class: 'form-control'%>
 
-  <div class="field">
-    <%= form.label :user_id %>
-    <%= form.hidden_field :user_id ,value: current_user.id, :disabled => false%>
-  </div>
+
+
+
+    <%= form.hidden_field :user_id ,value: current_user.id, :disabled => false, class: 'form-control'%>
+
+<br>
 
   <div class="actions">
     <%= form.submit %>
   </div>
 <% end %>
+  </div>
+</div>
