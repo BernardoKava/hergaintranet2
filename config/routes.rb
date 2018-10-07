@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :resources
   resources :service_providers
   get 'user/index'
   devise_for :users

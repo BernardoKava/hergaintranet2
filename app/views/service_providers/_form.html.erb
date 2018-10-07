@@ -42,6 +42,11 @@
   </div>
 
   <div class="field">
+    <%= form.label :link %>
+    <%= form.text_field :link %>
+  </div>
+
+  <div class="field">
     <%= form.label :user_id %>
     <%= form.hidden_field :user_id ,value: current_user.id, :disabled => false%>
   </div>

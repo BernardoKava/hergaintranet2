@@ -9004,3 +9004,1970 @@ Migrating to DropTablePhotos (20181007185829)
   ↳ bin/rails:9
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+Started GET "/" for 10.1.10.180 at 2018-10-07 20:18:30 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/bkava/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:4
+Redirected to http://10.1.10.106:3000/dashboard/index
+Completed 302 Found in 9ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/dashboard/index" for 10.1.10.180 at 2018-10-07 20:18:31 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered user/_gravatar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 55ms (Views: 53.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 10.1.10.180 at 2018-10-07 20:18:31 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:4
+Redirected to http://10.1.10.106:3000/dashboard/index
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/dashboard/index" for 10.1.10.180 at 2018-10-07 20:18:31 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered user/_gravatar.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 42ms (Views: 38.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for 10.1.10.180 at 2018-10-07 20:18:34 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/GXYYz2Y7JN9N+OwlgcdLruHhkzYy2KwNN8cH3O86tV7VukFNFqa25WWQxD5XEQoN3cZS4kNGxCyq+LDbC9Dpg=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bkava/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/bkava/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/bkava/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://10.1.10.106:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 10.1.10.180 at 2018-10-07 20:18:34 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_visitorNotice.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.1.10.180 at 2018-10-07 20:20:23 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered user/_visitorNotice.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.1.10.180 at 2018-10-07 20:20:29 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_visitorNotice.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.1.10.180 at 2018-10-07 20:28:06 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered user/_visitorNotice.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.1.10.180 at 2018-10-07 20:29:31 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered user/_visitorNotice.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 59ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.1.10.180 at 2018-10-07 20:43:56 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered user/_visitorNotice.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 55ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.1.10.180 at 2018-10-07 20:44:09 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZfMPm8tlTcfWuulXHXo4myH/qrvoqDBJbZ5uoATIecaazLDV9AHDbXDqKrnN3Q9rmUtiHWmx+XzdkCZBc4ezRA==", "user"=>{"email"=>"bkava@outlook.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "bkava@outlook.com"], ["LIMIT", 1]]
+  ↳ /home/bkava/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://10.1.10.106:3000/
+Completed 302 Found in 127ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 10.1.10.180 at 2018-10-07 20:44:09 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:4
+Redirected to http://10.1.10.106:3000/dashboard/index
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/dashboard/index" for 10.1.10.180 at 2018-10-07 20:44:09 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered user/_gravatar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 77ms (Views: 75.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 20:44:14 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (35.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 105ms (Views: 99.9ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/rules" for 10.1.10.180 at 2018-10-07 20:45:00 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#rules as HTML
+  Rendering static_pages/rules.html.erb within layouts/application
+  Rendered static_pages/rules.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered user/_gravatar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 20:45:14 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_shim.html.erb (2.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:24:53 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 52.5ms | ActiveRecord: 0.8ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddLinkToServiceProviders (20181007202702)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "service_providers" ADD "link" varchar[0m
+  ↳ db/migrate/20181007202702_add_link_to_service_providers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181007202702"]]
+  ↳ bin/rails:9
+  [1m[35m (63.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:31:49 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/bkava/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.6ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:23
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:36
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  Rendered service_providers/index.html.erb within layouts/application (37.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 83ms (Views: 77.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:32:05 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:23
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:36
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  Rendered service_providers/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered user/_gravatar.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 44.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:32:08 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:23
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:36
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  Rendered service_providers/index.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered user/_gravatar.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:32:08 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:23
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:36
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  Rendered service_providers/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered user/_gravatar.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 41.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/service_providers/new" for 10.1.10.180 at 2018-10-07 21:32:43 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#new as HTML
+  Rendering service_providers/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/_form.html.erb:51
+  Rendered service_providers/_form.html.erb (3.4ms)
+  Rendered service_providers/new.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/service_providers" for 10.1.10.180 at 2018-10-07 21:37:03 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R/k/M4LzP7Lu16rREoQMZZM5KUPWSoufsKF5O4epOzcdKK55XXb4Po+DdlsN3kQguE7k/R1LyFIZqltM9q9c4Q==", "service_provider"=>{"name"=>"Pinergy", "address"=>"", "telephone"=>"1850 94 50 23", "email"=>"customerservices@pinergy.ie ", "acc_number"=>"9372520002112529582", "active"=>"1", "link"=>"https://pinergy.payzone.ie/Account/Logon", "user_id"=>"1"}, "commit"=>"Create Service provider"}
+Unpermitted parameter: :link
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/service_providers_controller.rb:30
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:30
+  [1m[36mServiceProvider Create (0.3ms)[0m  [1m[32mINSERT INTO "service_providers" ("name", "address", "telephone", "email", "acc_number", "active", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Pinergy"], ["address", ""], ["telephone", "1850 94 50 23"], ["email", "customerservices@pinergy.ie "], ["acc_number", "9372520002112529582"], ["active", 1], ["user_id", 1], ["created_at", "2018-10-07 20:37:03.017324"], ["updated_at", "2018-10-07 20:37:03.017324"]]
+  ↳ app/controllers/service_providers_controller.rb:30
+  [1m[35m (54.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/service_providers_controller.rb:30
+Redirected to http://10.1.10.106:3000/service_providers/4
+Completed 302 Found in 60ms (ActiveRecord: 55.1ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:37:03 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.4ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:39
+  Rendered service_providers/show.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 52ms (Views: 48.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:37:09 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:23
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:36
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  Rendered service_providers/index.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:37:15 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:23
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:36
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  Rendered service_providers/index.html.erb within layouts/application (11.4ms)
+  Rendered layouts/_shim.html.erb (1.1ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:39:12 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:23
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:36
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:33
+  Rendered service_providers/index.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 49ms (Views: 39.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:44:32 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:23
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:32
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:35
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:32
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:32
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:32
+  Rendered service_providers/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 42.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:44:48 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.4ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 39.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/service_providers/1" for 10.1.10.180 at 2018-10-07 21:44:53 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:46
+  Rendered service_providers/show.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered user/_gravatar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 36.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/service_providers/1" for 10.1.10.180 at 2018-10-07 21:44:55 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:46
+  Rendered service_providers/show.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 39.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:44:59 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.6ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 47.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:45:03 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:46
+  Rendered service_providers/show.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered user/_gravatar.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 35.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:45:05 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:46
+  Rendered service_providers/show.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 41ms (Views: 38.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:46:59 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 40.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:47:05 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.5ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 37.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:47:08 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 34.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:47:09 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.4ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 40.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:47:27 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.4ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 48.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:47:33 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.1ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered user/_gravatar.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:47:35 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (1.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 34.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:47:36 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 34.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:47:36 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 39.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:47:36 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 40.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:47:46 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 37.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:47:46 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.1ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:47:47 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 51ms (Views: 48.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:47:59 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 43.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/service_providers/1/edit" for 10.1.10.180 at 2018-10-07 21:48:00 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/_form.html.erb:51
+  Rendered service_providers/_form.html.erb (6.4ms)
+  Rendered service_providers/edit.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:48:03 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.6ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 48ms (Views: 44.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/service_providers/4/edit" for 10.1.10.180 at 2018-10-07 21:48:05 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/_form.html.erb:51
+  Rendered service_providers/_form.html.erb (4.7ms)
+  Rendered service_providers/edit.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 36.5ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:49:32 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"erzVzZUEvUJBI1z5Y8FBfODJYm3J4CX3WPFKG1eBTEiXr8vNx4frzBkhgGVeMuNqMwvvt8iYMWGWTXnIRHxmbQ==", "service_provider"=>{"name"=>"Pinergy", "address"=>"Suite 1, Beaver House, Beech Hill Office Campus Clonskeagh, Dublin, D04 Y8X5", "telephone"=>"1850 94 50 23", "email"=>"customerservices@pinergy.ie ", "acc_number"=>"9372520002112529582", "active"=>"1", "link"=>"https://pinergy.ie/customer-info/ways-to-top-up", "user_id"=>"1"}, "commit"=>"Update Service provider", "id"=>"4"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+Unpermitted parameter: :link
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/service_providers_controller.rb:44
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:44
+  [1m[36mServiceProvider Update (0.5ms)[0m  [1m[33mUPDATE "service_providers" SET "address" = ?, "updated_at" = ? WHERE "service_providers"."id" = ?[0m  [["address", "Suite 1, Beaver House, Beech Hill Office Campus Clonskeagh, Dublin, D04 Y8X5"], ["updated_at", "2018-10-07 20:49:32.169463"], ["id", 4]]
+  ↳ app/controllers/service_providers_controller.rb:44
+  [1m[35m (58.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/service_providers_controller.rb:44
+Redirected to http://10.1.10.106:3000/service_providers/4
+Completed 302 Found in 65ms (ActiveRecord: 59.4ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:49:32 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:49:36 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered user/_gravatar.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 34.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:49:38 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 36.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:49:40 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 40.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:49:41 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.1ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered user/_gravatar.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:49:44 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 45ms (Views: 41.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/service_providers/4/edit" for 10.1.10.180 at 2018-10-07 21:49:53 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/_form.html.erb:51
+  Rendered service_providers/_form.html.erb (4.2ms)
+  Rendered service_providers/edit.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 37.5ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:52:18 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qz61mMNnWo3N11yO5iRfK/cL46g/nN6tfGfD2lQ7yMRGLauYkeQMA5XVgBLb1/09JMlucj7kyjuy2/AJR8bi4Q==", "service_provider"=>{"name"=>"Pinergy", "address"=>"Suite 1, Beaver House, Beech Hill Office Campus Clonskeagh, Dublin, D04 Y8X5", "telephone"=>"1850 94 50 23", "email"=>"customerservices@pinergy.ie ", "acc_number"=>"9372520002112529582", "active"=>"1", "link"=>"https://pinergy.ie/customer-info/ways-to-top-up", "user_id"=>"1"}, "commit"=>"Update Service provider", "id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+Unpermitted parameter: :link
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/service_providers_controller.rb:44
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:44
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/service_providers_controller.rb:44
+Redirected to http://10.1.10.106:3000/service_providers/4
+Completed 302 Found in 8ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:52:18 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.1ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 39.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:52:22 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 49ms (Views: 45.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:52:25 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 41.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:52:29 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 55.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/service_providers/4/edit" for 10.1.10.180 at 2018-10-07 21:52:32 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.1ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/_form.html.erb:51
+  Rendered service_providers/_form.html.erb (5.4ms)
+  Rendered service_providers/edit.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers/4/edit" for 10.1.10.180 at 2018-10-07 21:52:36 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.1ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/_form.html.erb:51
+  Rendered service_providers/_form.html.erb (4.9ms)
+  Rendered service_providers/edit.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 43.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers/4/edit" for 10.1.10.180 at 2018-10-07 21:52:43 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.1ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/_form.html.erb:51
+  Rendered service_providers/_form.html.erb (16.4ms)
+  Rendered service_providers/edit.html.erb within layouts/application (17.5ms)
+  Rendered layouts/_shim.html.erb (1.3ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered user/_gravatar.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 64ms (Views: 51.9ms | ActiveRecord: 1.7ms)
+
+
+Started PATCH "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:52:59 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h4xbpS3B3XXWbW83SimStvH+SLt6KxKaJr5VO4BG6cOMi/EpIz+77+Oo8Y9jWOkRw7fsxBVOEdyivdt8Cxy7bw==", "service_provider"=>{"name"=>"Pinergy", "address"=>"Suite 1, Beaver House, Beech Hill Office Campus Clonskeagh, Dublin, D04 Y8X5", "telephone"=>"1850 94 50 23", "email"=>"customerservices@pinergy.ie ", "acc_number"=>"9372520002112529582", "active"=>"1", "link"=>"https://pinergy.ie/customer-info/ways-to-top-up", "user_id"=>"1"}, "commit"=>"Update Service provider", "id"=>"4"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/service_providers_controller.rb:44
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:44
+  [1m[36mServiceProvider Update (1.0ms)[0m  [1m[33mUPDATE "service_providers" SET "link" = ?, "updated_at" = ? WHERE "service_providers"."id" = ?[0m  [["link", "https://pinergy.ie/customer-info/ways-to-top-up"], ["updated_at", "2018-10-07 20:52:59.655957"], ["id", 4]]
+  ↳ app/controllers/service_providers_controller.rb:44
+  [1m[35m (71.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/service_providers_controller.rb:44
+Redirected to http://10.1.10.106:3000/service_providers/4
+Completed 302 Found in 81ms (ActiveRecord: 73.3ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:52:59 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 42.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:53:04 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.5ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/service_providers/4/edit" for 10.1.10.180 at 2018-10-07 21:53:08 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.1ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/_form.html.erb:51
+  Rendered service_providers/_form.html.erb (4.8ms)
+  Rendered service_providers/edit.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:53:12 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JxiHLqq/M14huBRSZtwvGrbcP6F0DvNhrFIbywaclIbKC5ku+Dxl0Hm6yM5bL40MZR6ye3V25/di7igYFWG+ow==", "service_provider"=>{"name"=>"Pinergy", "address"=>"Suite 1, Beaver House, Beech Hill Office Campus Clonskeagh, Dublin, D04 Y8X5", "telephone"=>"1850 94 50 23", "email"=>"customerservices@pinergy.ie ", "acc_number"=>"9372520002112529582", "active"=>"1", "link"=>"https://pinergy.ie/customer-info/ways-to-top-up", "user_id"=>"1"}, "commit"=>"Update Service provider", "id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/service_providers_controller.rb:44
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:44
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/service_providers_controller.rb:44
+Redirected to http://10.1.10.106:3000/service_providers/4
+Completed 302 Found in 9ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:53:12 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.9ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:53:26 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/service_providers/4/edit" for 10.1.10.180 at 2018-10-07 21:53:30 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/_form.html.erb:51
+  Rendered service_providers/_form.html.erb (5.4ms)
+  Rendered service_providers/edit.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 40.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 21:53:32 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 49.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/service_providers/4" for 10.1.10.180 at 2018-10-07 21:53:35 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mServiceProvider Load (0.3ms)[0m  [1m[34mSELECT  "service_providers".* FROM "service_providers" WHERE "service_providers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/service_providers_controller.rb:67
+  Rendering service_providers/show.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/show.html.erb:40
+  Rendered service_providers/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered user/_gravatar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (1.3ms)
+Completed 200 OK in 44ms (Views: 39.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 22:04:11 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (23.0ms)
+  Rendered layouts/_shim.html.erb (1.5ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered user/_gravatar.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 58ms (Views: 55.2ms | ActiveRecord: 1.5ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateResources (20181007213406)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20181007213406_create_resources.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "resources" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20181007213406_create_resources.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181007213406"]]
+  ↳ bin/rails:9
+  [1m[35m (87.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 10.1.10.180 at 2018-10-07 22:38:50 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/bkava/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:4
+Redirected to http://10.1.10.106:3000/dashboard/index
+Completed 302 Found in 11ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/dashboard/index" for 10.1.10.180 at 2018-10-07 22:38:50 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DashboardController#index as HTML
+  Rendering dashboard/index.html.erb within layouts/application
+  Rendered dashboard/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 112ms (Views: 109.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 22:39:00 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (13.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 45.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/resources" for 10.1.10.180 at 2018-10-07 22:40:51 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#index as HTML
+  Rendering resources/index.html.erb within layouts/application
+  [1m[36mResource Load (0.1ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  ↳ app/views/resources/index.html.erb:16
+  Rendered resources/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 34.2ms | ActiveRecord: 0.5ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddLinlToResourcesTable (20181007214314)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "resources_tables" ADD "link" varchar[0m
+  ↳ db/migrate/20181007214314_add_linl_to_resources_table.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddLinlToResourcesTable (20181007214314)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "resource_tables" ADD "link" varchar[0m
+  ↳ db/migrate/20181007214314_add_linl_to_resources_table.rb:3
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddLinkToResources (20181007214833)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "resources" ADD "link" varchar[0m
+  ↳ db/migrate/20181007214833_add_link_to_resources.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181007214833"]]
+  ↳ bin/rails:9
+  [1m[35m (91.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/resources" for 10.1.10.180 at 2018-10-07 22:54:30 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/bkava/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ResourcesController#index as HTML
+  Rendering resources/index.html.erb within layouts/application
+  [1m[36mResource Load (0.1ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  ↳ app/views/resources/index.html.erb:17
+  Rendered resources/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (7.7ms)
+  Rendered user/_gravatar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 48ms (Views: 45.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/resources" for 10.1.10.180 at 2018-10-07 22:57:37 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#index as HTML
+  Rendering resources/index.html.erb within layouts/application
+  [1m[36mResource Load (0.1ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  ↳ app/views/resources/index.html.erb:17
+  Rendered resources/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered user/_gravatar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 65ms (Views: 61.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/resources" for 10.1.10.180 at 2018-10-07 22:57:40 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#index as HTML
+  Rendering resources/index.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  ↳ app/views/resources/index.html.erb:17
+  Rendered resources/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered user/_gravatar.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/resources/new" for 10.1.10.180 at 2018-10-07 23:03:18 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#new as HTML
+  Rendering resources/new.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/resources/_form.html.erb:26
+  Rendered resources/_form.html.erb (8.3ms)
+  Rendered resources/new.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 41.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/service_providers" for 10.1.10.180 at 2018-10-07 23:05:40 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ServiceProvidersController#index as HTML
+  Rendering service_providers/index.html.erb within layouts/application
+  [1m[36mServiceProvider Load (0.2ms)[0m  [1m[34mSELECT "service_providers".* FROM "service_providers"[0m
+  ↳ app/views/service_providers/index.html.erb:22
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:34
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/service_providers/index.html.erb:31
+  Rendered service_providers/index.html.erb within layouts/application (15.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered user/_gravatar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 53ms (Views: 49.0ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/resources" for 10.1.10.180 at 2018-10-07 23:06:13 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GHrsranTiRxM9Grt0nbjCKWZCGn+WKu19VEunZ89ddC1sqrWsIXdAlPT96q5WDORHvDoSkE0hWIuz7vWeUerpA==", "resource"=>{"name"=>"Remote Resources Server", "description"=>"This link connects the user to the server hosting remote resources. e.g. MS office(particularly  outlook and one note).  The sessions can be kept running on the server for quick access upon reconnection.", "user_id"=>"1", "link"=>"https://rrserver.herga.net/RDWeb/Pages/en-US/login.aspx?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx"}, "commit"=>"Create Resource"}
+Unpermitted parameter: :link
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/resources_controller.rb:30
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:30
+  [1m[36mResource Create (0.7ms)[0m  [1m[32mINSERT INTO "resources" ("name", "description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Remote Resources Server"], ["description", "This link connects the user to the server hosting remote resources. e.g. MS office(particularly  outlook and one note).  The sessions can be kept running on the server for quick access upon reconnection."], ["user_id", 1], ["created_at", "2018-10-07 22:06:13.130238"], ["updated_at", "2018-10-07 22:06:13.130238"]]
+  ↳ app/controllers/resources_controller.rb:30
+  [1m[35m (60.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/resources_controller.rb:30
+Redirected to http://10.1.10.106:3000/resources/1
+Completed 302 Found in 69ms (ActiveRecord: 61.2ms)
+
+
+Started GET "/resources/1" for 10.1.10.180 at 2018-10-07 23:06:13 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  Rendering resources/show.html.erb within layouts/application
+  Rendered resources/show.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `link' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Name:</strong>
+    5:   <%= link_to @resource.name, @service_provider.link %>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/resources/show.html.erb:5:in `_app_views_resources_show_html_erb__2277136975395319377_69986672938680'
+Started GET "/resources/new" for 10.1.10.180 at 2018-10-07 23:07:39 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#new as HTML
+  Rendering resources/new.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/resources/_form.html.erb:26
+  Rendered resources/_form.html.erb (4.2ms)
+  Rendered resources/new.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/resources" for 10.1.10.180 at 2018-10-07 23:07:43 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#index as HTML
+  Rendering resources/index.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  ↳ app/views/resources/index.html.erb:17
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/resources/index.html.erb:24
+  Rendered resources/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 39.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/resources/1" for 10.1.10.180 at 2018-10-07 23:07:51 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  Rendering resources/show.html.erb within layouts/application
+  Rendered resources/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `link' for nil:NilClass):
+    2: 
+    3: <p>
+    4:   <strong>Name:</strong>
+    5:   <%= link_to @resource.name, @resources.link %>
+    6: </p>
+    7: 
+    8: <p>
+  
+app/views/resources/show.html.erb:5:in `_app_views_resources_show_html_erb__2277136975395319377_69986699955060'
+Started GET "/resources/1" for 10.1.10.180 at 2018-10-07 23:08:05 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  Rendering resources/show.html.erb within layouts/application
+  Rendered resources/show.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 38.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/resources/1" for 10.1.10.180 at 2018-10-07 23:08:19 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  Rendering resources/show.html.erb within layouts/application
+  Rendered resources/show.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered user/_gravatar.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 46ms (Views: 41.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resources/1" for 10.1.10.180 at 2018-10-07 23:08:26 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  Rendering resources/show.html.erb within layouts/application
+  Rendered resources/show.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (7.8ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 49ms (Views: 46.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/resources/1/edit" for 10.1.10.180 at 2018-10-07 23:08:33 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mResource Load (0.1ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  Rendering resources/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/resources/_form.html.erb:26
+  Rendered resources/_form.html.erb (4.0ms)
+  Rendered resources/edit.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/resources/1" for 10.1.10.180 at 2018-10-07 23:09:09 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Pjf1QKgu3PVdNzVsb4Su7y8UKy5qiCXVsWqK4nLKWCU1LgXVXzAz5UNTOeiLn/X/GV9ZFY6skLcfHRDxhQdt7g==", "resource"=>{"name"=>"Remote Resources Server", "description"=>"This link connects the user to the server hosting remote resources. e.g. MS office(particularly  outlook and one note).  The sessions can be kept running on the server for quick access upon reconnection.", "user_id"=>"1", "link"=>"https://rrserver.herga.net/RDWeb/Pages/en-US/login.aspx?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx"}, "commit"=>"Update Resource", "id"=>"1"}
+  [1m[36mResource Load (0.1ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/resources_controller.rb:44
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:44
+  [1m[36mResource Update (0.2ms)[0m  [1m[33mUPDATE "resources" SET "link" = ?, "updated_at" = ? WHERE "resources"."id" = ?[0m  [["link", "https://rrserver.herga.net/RDWeb/Pages/en-US/login.aspx?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx"], ["updated_at", "2018-10-07 22:09:09.383167"], ["id", 1]]
+  ↳ app/controllers/resources_controller.rb:44
+  [1m[35m (62.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/resources_controller.rb:44
+Redirected to http://10.1.10.106:3000/resources/1
+Completed 302 Found in 80ms (ActiveRecord: 63.9ms)
+
+
+Started GET "/resources/1" for 10.1.10.180 at 2018-10-07 23:09:09 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mResource Load (0.1ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  Rendering resources/show.html.erb within layouts/application
+  Rendered resources/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/resources" for 10.1.10.180 at 2018-10-07 23:09:15 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#index as HTML
+  Rendering resources/index.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  ↳ app/views/resources/index.html.erb:17
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/resources/index.html.erb:24
+  Rendered resources/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/resources/1" for 10.1.10.180 at 2018-10-07 23:09:18 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  Rendering resources/show.html.erb within layouts/application
+  Rendered resources/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 38.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/resources" for 10.1.10.180 at 2018-10-07 23:11:41 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#index as HTML
+  Rendering resources/index.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  ↳ app/views/resources/index.html.erb:17
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/resources/index.html.erb:21
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/resources/index.html.erb:24
+  Rendered resources/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 42.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/resources/1" for 10.1.10.180 at 2018-10-07 23:11:55 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  Rendering resources/show.html.erb within layouts/application
+  Rendered resources/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 41.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/resources/1" for 10.1.10.180 at 2018-10-07 23:13:04 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  Rendering resources/show.html.erb within layouts/application
+  Rendered resources/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:9
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered user/_gravatar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 37.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/resources/1/edit" for 10.1.10.180 at 2018-10-07 23:13:14 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mResource Load (0.1ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/resources_controller.rb:67
+  Rendering resources/edit.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/resources/_form.html.erb:26
+  Rendered resources/_form.html.erb (4.2ms)
+  Rendered resources/edit.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 39.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/resources" for 10.1.10.180 at 2018-10-07 23:13:17 +0100
+Cannot render console from 10.1.10.180! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ResourcesController#index as HTML
+  Rendering resources/index.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  ↳ app/views/resources/index.html.erb:17
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/resources/index.html.erb:21
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/resources/index.html.erb:24
+  Rendered resources/index.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered user/_gravatar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 40.1ms | ActiveRecord: 0.8ms)
+
+
